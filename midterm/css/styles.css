@@ -1,0 +1,23 @@
+/* My Awesome Styles */
+
+/* Diagnostic Styling 
+  * Change Background Color
+  * Outline Elements
+*/
+
+* {
+    outline: 0px dotted black;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 span:nth-child(even) {
+  color: gray;
+}
+
+h1 span:nth-child(odd) {
+  color: red;
+}
